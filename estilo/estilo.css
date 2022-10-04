@@ -41,14 +41,6 @@
     background-color: #f0ead2;
   }
   
-  main{
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  
   
   /*Letras Titulos*/
   h1 a, h1 {
@@ -148,22 +140,6 @@
     padding: 10px;
   }
   
-  
-  footer{
-    grid-area: footer;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  footer a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.4em;
-  }
   
   /*animacion de texto*/
   .textanimatio1{

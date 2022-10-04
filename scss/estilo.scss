@@ -1,2 +1,9 @@
 
-@import "footer"
+@import "footer";
+
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
