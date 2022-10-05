@@ -102,11 +102,7 @@
   }
   
   
-  main,article {
-    background-color: #f0ead2;
-    padding: 25px;
-    margin: 20px;
-  }
+
   
   /*fondo con color gradiente*/
   .grad{
@@ -225,6 +221,14 @@
     justify-content: space-between;
 }
   
+main,article {
+  background-color: #f0ead2;
+  padding: 25px;
+  margin: 20px;
+}
+
+
+
   @media only screen and (min-width:0px) and (max-width:767px){
     .colorMedia{
         background-color: #efefef;

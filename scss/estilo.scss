@@ -1,9 +1,15 @@
 
-@import "footer";
+@import 'footer';
 
 main{
     grid-area: main;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    article{
+        background-color: #f0ead2;
+        padding: 25px;
+        margin: 20px;
+    }
 }
