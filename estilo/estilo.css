@@ -341,7 +341,7 @@ main,article {
   .imgLista{
     border: 2px double #686060;
     background-color: #000000;
-    min-width: 100px;
+    min-width: 50px;
   }
   
 
