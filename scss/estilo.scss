@@ -41,3 +41,7 @@ footer{
     font-size: 1.4em;
     }
 }
+
+section{
+    @include caja1 (10px);
+}
