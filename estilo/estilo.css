@@ -271,10 +271,15 @@ main,article {
   
   header{
     grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   footer{
     grid-area: footer;
+    display: flex;
+    flex-wrap: wrap;
     
   }
   
@@ -293,7 +298,7 @@ main,article {
     grid-template-areas: 
     "header header"
     "divAbogArea divAbogArea"
-    "section ."
+    "section section"
     "footer footer";
     grid-template-columns: 40% 60%;
     grid-template-rows: auto auto auto auto;
@@ -302,6 +307,9 @@ main,article {
   
   header{
     grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   section{
@@ -312,6 +320,8 @@ main,article {
   
   footer{
     grid-area: footer;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .divAbogArea{
@@ -324,5 +334,5 @@ main,article {
     background-color: #000000;
   }
   
-  
+
   }
