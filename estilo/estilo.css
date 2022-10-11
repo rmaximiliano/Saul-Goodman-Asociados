@@ -199,6 +199,14 @@
     padding: 7%;
   }
 
+  .padbox{
+    padding: 3%;
+  }
+
+  .mrbox{
+    margin: 2%;
+  }
+
   footer{
     grid-area: footer;
     display: flex;
