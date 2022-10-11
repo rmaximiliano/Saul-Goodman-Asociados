@@ -3,6 +3,16 @@
 $padding: 250px;
 $margin: 5px;
 
+@mixin Caja1 ($margen,){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: $margen; 
+}
+
+
 main{
     grid-area: main;
     display: flex;
@@ -23,12 +33,7 @@ main{
 
 footer{
     grid-area: footer;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    @include caja1 (20px);
 
     a{
     text-decoration: none;
