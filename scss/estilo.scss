@@ -14,4 +14,25 @@ main{
         padding: $padding/10;
         margin: $margin*4;
     }
+    
+    img{
+        max-width: 700px;
+    }
+}
+
+
+footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    }
 }
